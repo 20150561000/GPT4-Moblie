@@ -1,4 +1,17 @@
-下面是对这个油猴脚本 [origin.js](origin.js) 的逐行解读：
+#  [origin.js](origin.js) 功能简述
+这段JavaScript代码的功能是修改在一个网页上使用的fetch API的行为。这个修改的目标是为了将与 `https://chat.openai.com/backend-api/conversation` 这个URL交互的所有fetch请求的模型更改为"gpt-4-mobile"。
+
+这段代码中包含了一个自执行的箭头函数，主要有两个部分：
+
+1. **替换fetch API：** 使用原生的fetch方法创建一个新的fetch函数，新的fetch函数会检查请求的URL。如果URL是`https://chat.openai.com/backend-api/conversation`，并且用户没有通过设置localStorage的"replaceFetch"来禁用此功能，它就会修改该请求，将请求的模型更改为"gpt-4-mobile"。
+
+2. **创建一个可勾选的复选框：** 这个复选框允许用户选择是否启用上述功能。复选框的状态会保存在localStorage的"replaceFetch"中，所以关闭并重新打开浏览器后，该设置依然有效。
+
+此外，代码还设置了一个MutationObserver，用于监视DOM的变化。当main元素出现在页面上时，会将复选框添加到main元素中。
+
+这个代码在某些情况下可能很有用，比如一个使用OpenAI的chat模型的网页，而你希望所有的请求都使用"gpt-4-mobile"模型，那么这个代码就可以帮你实现这个目标。
+
+#  [origin.js](origin.js) 逐行解读
 
 1. `// ==UserScript==` 和 `// ==/UserScript==`：这两行是 UserScript 的元数据块的开始和结束标记，包含了一些用于描述 UserScript 的元数据。
 
