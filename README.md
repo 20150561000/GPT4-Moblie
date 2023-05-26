@@ -10,7 +10,7 @@ If you have an objection to copyright, please submit an issue。
 
 这个油猴脚本用于修改 OpenAI 聊天室中使用的语言模型，将默认的语言模型切换为" GPT-4 Mobile"。
 
-具体的分析还可以阅读本项目的 code-review 和 compare ，可以进一步了解有关GPT版本的一些事情。
+具体的分析还可以阅读本项目的 [code-review](code-review.md) 和 [compare](compare.md) ，可以进一步了解有关GPT版本的一些事情。
 
 ## 要求和限制
 
