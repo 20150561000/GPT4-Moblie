@@ -8,9 +8,9 @@ If you have an objection to copyright, please submit an issue。
 
 # Use GPT-4 Mobile UserScript
 
-这个油猴脚本用于修改 OpenAI 聊天室中使用的语言模型，将默认的语言模型切换为" GPT-4 Mobile"。目前GPT4M没有和GPT4一样的25R/3H限制
+这个油猴脚本用于修改 OpenAI 聊天室中使用的语言模型，将默认的语言模型切换为" GPT-4 Mobile"。目前GPT4M没有和GPT4一样的25R/3H限制。
 
-具体的分析还可以阅读本项目的 [code-review](code-review.md) 和 [compare](compare.md) ，可以进一步了解有关GPT版本的一些事情。
+具体的分析还可以阅读本项目的 [code-review](code-review.md) 、 [compare](compare.md) 、[models-review](models-review.md) ，可以进一步了解有关GPT版本的一些事情。
 
 ## 要求和限制
 
@@ -83,7 +83,7 @@ If you have an objection to copyright, please submit an issue。
 
 ### 购买
 
-账号其实也可以去各类第三方网站购买，这类网站很多，空号基本1-3 CNY 一个。
+账号其实也可以去各类第三方网站购买，这类网站很多，空号基本1-3CNY 一个。
 
 ### ChatGPT For IOS 可用区
 2023-05-18 开放 美国
