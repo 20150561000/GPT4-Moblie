@@ -1,4 +1,4 @@
-下面是对这个油猴脚本的逐行解读：
+下面是对这个油猴脚本 [origin.js](origin.js) 的逐行解读：
 
 1. `// ==UserScript==` 和 `// ==/UserScript==`：这两行是 UserScript 的元数据块的开始和结束标记，包含了一些用于描述 UserScript 的元数据。
 
