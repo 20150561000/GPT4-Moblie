@@ -1,6 +1,6 @@
 # GPT4-Moblie
 
-原作者是NijikaMyWaifu。发布在reddit的一个油猴脚本，在 ChatGPT 网页版使用 GPT-4 Mobile 模型，从而实现在PC上不限制GPT4-Mobile的模型用量。
+原作者是NijikaMyWaifu。发布在reddit的一个油猴脚本，在 ChatGPT 网页版使用 GPT-4 Mobile 模型。
 
 如果你对版权有异议，请提交issue。
 
@@ -8,7 +8,7 @@ If you have an objection to copyright, please submit an issue。
 
 # Use GPT-4 Mobile UserScript
 
-这个油猴脚本用于修改 OpenAI 聊天室中使用的语言模型，将默认的语言模型切换为" GPT-4 Mobile"。
+这个油猴脚本用于修改 OpenAI 聊天室中使用的语言模型，将默认的语言模型切换为" GPT-4 Mobile"。目前GPT4M没有和GPT4一样的25R/3H限制
 
 具体的分析还可以阅读本项目的 [code-review](code-review.md) 和 [compare](compare.md) ，可以进一步了解有关GPT版本的一些事情。
 
