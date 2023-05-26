@@ -1,4 +1,4 @@
-# 格式解读
+# [models.json](models.json) 格式解读
 
 这段 JSON 数据包含了两个主要部分：`models` 和 `categories`。
 
